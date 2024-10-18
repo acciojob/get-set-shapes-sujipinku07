@@ -1,4 +1,5 @@
 //complete this code
+class Rectangle {
 constructor(width, height) {
     // Ensure that width and height are positive integers
     if (!Number.isInteger(width) || width <= 0) {
@@ -44,8 +45,6 @@ class Square extends Rectangle {
     return 4 * this.width;
   }
 }
-
-
 // Do not change the code below this line
 window.Rectangle = Rectangle;
 window.Square = Square;
